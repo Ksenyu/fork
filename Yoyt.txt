@@ -1,0 +1,5 @@
+(defun fibonacci (n)
+           (loop repeat n
+                    for a = 0 then b
+                    and for b = 1 then (+ a b)
+                    finally (return b)))
